@@ -1,6 +1,6 @@
 {
   "name": "vuetify-input-mask",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "Masked input component for Vuetify",
   "main": "dist/index.js",
   "scripts": {
@@ -46,9 +46,9 @@
     "shelljs": "^0.7.7",
     "vue-loader": "^13.0.5",
     "vue-template-compiler": "^2.4.4",
+    "vuetify-loader": "^1.3.0",
     "webpack": "^3.6.0",
     "webpack-dev-server": ">=3.1.11",
-    "webpack-merge": "^4.1.0",
-    "vuetify-loader": "^1.3.0"
+    "webpack-merge": "^4.1.0"
   }
 }
