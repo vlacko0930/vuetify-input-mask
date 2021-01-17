@@ -41,14 +41,14 @@ Show mask when input is empty and has no focus.
 ## Example
 ```js
 import Vue from 'vue';
-import InputMask from 'vue-input-mask';
+import InputMask from 'vuetify-input-mask';
 
-Vue.component('input-mask', InputMask)
+Vue.component('v-input-mask', InputMask)
 ```
 
 In template:
 ```html
-    <input-mask v-model="value" mask="+4\9 99 999 99" maskChar=" "></input-mask>
+    <v-input-mask v-model="value" mask="+4\9 99 999 99" maskChar=" "></v-input-mask>
 ```
 
 ## Todo
