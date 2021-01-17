@@ -284,7 +284,7 @@ export default {
       value: false
     },
     value: {
-      type: any,
+      type: Any,
       value: undefined
     },
   },
