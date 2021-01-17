@@ -1,14 +1,12 @@
-# vue-input-mask
+# vuetify-input-mask
 
-Yet another Vue component for input masking. Based on [react-input-mask](https://github.com/sanniassin/react-input-mask).
+Yet another Vuetify component for input masking. Based on [vue-input-mask](https://github.com/xdimedrolx/vue-input-mask).
 
 #### [Demo](http://sanniassin.github.io/react-input-mask/demo.html)
 
 ## Install
 ```
-yarn add vue-input-mask
-or
-npm i -S vue-input-mask
+npm i -S vuetify-input-mask
 ```
 
 ## Properties
