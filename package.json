@@ -1,7 +1,7 @@
 {
-  "name": "vue-input-mask",
+  "name": "vuetify-input-mask",
   "version": "0.0.11",
-  "description": "Masked input component for Vue",
+  "description": "Masked input component for Vuetify",
   "main": "dist/index.js",
   "scripts": {
     "dev": "node_modules/.bin/webpack-dev-server --config ./build/webpack.dev.conf.js",
@@ -12,25 +12,28 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xdimedrolx/vue-input-mask.git"
+    "url": "git+https://github.com/vlacko0930/vuetify-input-mask.git"
   },
   "keywords": [
     "vue",
+    "vuetify",
     "input",
     "mask",
     "masked"
   ],
   "authors": [
     "Nikita Lobachev <sanniassin@gmail.com>",
-    "Dmitriy Verizhnikov <xdimedrolx@yandex.ru>"
+    "Dmitriy Verizhnikov <xdimedrolx@yandex.ru>",
+    "László Vörös <theprogrambear@gmail.com>"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xdimedrolx/vue-input-mask/issues"
+    "url": "https://github.com/vlacko0930/vuetify-input-mask/issues"
   },
-  "homepage": "https://github.com/xdimedrolx/vue-input-mask#readme",
+  "homepage": "https://github.com/vlacko0930/vuetify-input-mask#readme",
   "dependencies": {
-    "vue": "^2.4.4"
+    "vue": "^2.4.4",
+    "vuetify": "^2.2.11",
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
@@ -45,6 +48,7 @@
     "vue-template-compiler": "^2.4.4",
     "webpack": "^3.6.0",
     "webpack-dev-server": ">=3.1.11",
-    "webpack-merge": "^4.1.0"
+    "webpack-merge": "^4.1.0",
+    "vuetify-loader": "^1.3.0"
   }
 }
