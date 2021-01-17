@@ -33,7 +33,7 @@
   "homepage": "https://github.com/vlacko0930/vuetify-input-mask#readme",
   "dependencies": {
     "vue": "^2.4.4",
-    "vuetify": "^2.2.11",
+    "vuetify": "^2.2.11"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
