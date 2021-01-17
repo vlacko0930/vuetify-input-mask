@@ -132,7 +132,7 @@ export default {
       value: undefined
     },
     counterValue: {
-      type: function,
+      type: Function,
       value: undefined
     },
     dark: {
