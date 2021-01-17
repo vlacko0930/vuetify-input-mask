@@ -52,7 +52,6 @@
        :suffix="suffix"
        :type="type"
        :validate-on-blur="validateOnBlur"
-       :value="value"
     />
 </template>
 
@@ -282,9 +281,6 @@ export default {
     validateOnBlur: {
       type: Boolean,
       value: false
-    },
-    value: {
-      value: undefined
     },
   },
 
