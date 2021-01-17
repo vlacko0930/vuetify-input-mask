@@ -1,6 +1,6 @@
 {
   "name": "vuetify-input-mask",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "Masked input component for Vuetify",
   "main": "dist/index.js",
   "scripts": {
