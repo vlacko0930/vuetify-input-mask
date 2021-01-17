@@ -1,11 +1,58 @@
 <template>
-    <input
+    <v-text-field
        ref="input"
        @focus="onFocus"
        @blur="onBlur"
        @paste="onPaste"
        @keydown="onKeyDown"
        @input.lazy="onChange"
+       :append-icon="appendIcon"
+       :append-outer-icon="appendOuterIcon"
+       :autofocus="autofocus"
+       :background-color="backgroundColor"
+       :clear-icon="clearIcon"
+       :clearable="clearable"
+       :color="color"
+       :counter="counter"
+       :counter-value="counterValue"
+       :dark="dark"
+       :dense="dense"
+       :disabled="disabled"
+       :error="error"
+       :error-count="errorCount"
+       :error-messages="errorMessages"
+       :filled="filled"
+       :flat="flat"
+       :full-width="fullWidth"
+       :height="height"
+       :hide-details="hideDetails"
+       :hint="hint"
+       :id="id"
+       :label="label"
+       :light="light"
+       :loader-height="loaderHeight"
+       :loading="loading"
+       :messages="messages"
+       :outlined="outlined"
+       :persistent-hint="persistentHint"
+       :placeholder="placeholder"
+       :prefix="prefix"
+       :prepend-icon="prependIcon"
+       :prepend-inner-icon="prependInnerIcon"
+       :readonly="readonly"
+       :reverse="reverse"
+       :rounded="rounded"
+       :rules="rules"
+       :shaped="shaped"
+       :single-line="singleLine"
+       :solo="solo"
+       :solo-inverted="soloInverted"
+       :success="success"
+       :success-messages="successMessages"
+       :suffix="suffix"
+       :type="type"
+       :validate-on-blur="validateOnBlur"
+       :value="value"
     />
 </template>
 
@@ -51,7 +98,195 @@ export default {
     alwaysShowMask: {
       type: Boolean,
       default: false
-    }
+    },
+    appendIcon: {
+      type: String,
+      value: undefined
+    },
+    appendOuterIcon: {
+      type: String,
+      value: undefined
+    },
+    autofocus: {
+      type: Boolean,
+      value: false
+    },
+    backgroundColor: {
+      type: String,
+      value: undefined
+    },
+    clearIcon: {
+      type: String,
+      value: '$clear'
+    },
+    clearable: {
+      type: Boolean,
+      value: false
+    },
+    color: {
+      type: String,
+      value: undefined
+    },
+    counter: {
+      type: [Boolean, Number, String],
+      value: undefined
+    },
+    counterValue: {
+      type: function,
+      value: undefined
+    },
+    dark: {
+      type: Boolean,
+      value: false
+    },
+    dense: {
+      type: Boolean,
+      value: false
+    },
+    disabled: {
+      type: Boolean,
+      value: false
+    },
+    error: {
+      type: Boolean,
+      value: false
+    },
+    errorCount: {
+      type: [Number, String],
+      value: 1
+    },
+    errorMessages: {
+      type: [String, Array],
+      value: []
+    },
+    filled: {
+      type: Boolean,
+      value: false
+    },
+    flat: {
+      type: Boolean,
+      value: false
+    },
+    fullWidth: {
+      type: Boolean,
+      value: false
+    },
+    height: {
+      type: [Number, String],
+      value: undefined
+    },
+    hideDetails: {
+      type: [Boolean, String],
+      value: undefined
+    },
+    hint: {
+      type: String,
+      value: undefined
+    },
+    id: {
+      type: String,
+      value: undefined
+    },
+    label: {
+      type: String,
+      value: undefined
+    },
+    light: {
+      type: Boolean,
+      value: false
+    },
+    loaderHeight: {
+      type: [Number, String],
+      value: 2
+    },
+    loading: {
+      type: [Boolean, String],
+      value: false
+    },
+    messages: {
+      type: [String, Array],
+      value: []
+    },
+    outlined: {
+      type: Boolean,
+      value: false
+    },
+    persistentHint: {
+      type: Boolean,
+      value: false
+    },
+    placeholder: {
+      type: String,
+      value: undefined
+    },
+    prefix: {
+      type: String,
+      value: undefined
+    },
+    prependIcon: {
+      type: String,
+      value: undefined
+    },
+    prependInnerIcon: {
+      type: String,
+      value: undefined
+    },
+    readonly: {
+      type: Boolean,
+      value: false
+    },
+    reverse: {
+      type: Boolean,
+      value: false
+    },
+    rounded: {
+      type: Boolean,
+      value: false
+    },
+    rules: {
+      type: Array,
+      value: []
+    },
+    shaped: {
+      type: Boolean,
+      value: false
+    },
+    singleLine: {
+      type: Boolean,
+      value: false
+    },
+    solo: {
+      type: Boolean,
+      value: false
+    },
+    soloInverted: {
+      type: Boolean,
+      value: false
+    },
+    success: {
+      type: Boolean,
+      value: false
+    },
+    successMessages: {
+      type: [String, Array],
+      value: []
+    },
+    suffix: {
+      type: String,
+      value: undefined
+    },
+    type: {
+      type: String,
+      value: 'text'
+    },
+    validateOnBlur: {
+      type: Boolean,
+      value: false
+    },
+    value: {
+      type: any,
+      value: undefined
+    },
   },
 
   computed: {
